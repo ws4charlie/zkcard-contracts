@@ -1,0 +1,32 @@
+{
+  "name": "zkcard-contracts",
+  "version": "1.0.0",
+  "description": "Zero-Knowledge card game contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FindoraNetwork/zkcard-contracts.git"
+  },
+  "keywords": [
+    "zkp",
+    "poker"
+  ],
+  "author": "FindoraNetwork",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FindoraNetwork/zkcard-contracts/issues"
+  },
+  "homepage": "https://github.com/FindoraNetwork/zkcard-contracts#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.13.0",
+    "prettier": "^2.8.6",
+    "prettier-plugin-solidity": "^1.1.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.2"
+  }
+}
